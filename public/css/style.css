@@ -1,0 +1,169 @@
+html, body 
+{
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/**
+Custom CSS
+**/
+.dealerCards
+{
+   padding-top: 20px;
+}
+.playerCards
+{
+    position: relative;
+    top: 270px;
+}
+
+span.card
+{
+    font-size:5em;
+}
+span.card.card-red
+{
+    color: red;
+}
+span.card.card-black
+{
+    color: black;
+}
+span.card.card-blue
+{
+    color: darkslategray;
+}
+.cardsTable
+{
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;    
+    background: green;
+    background: linear-gradient(45deg, green, lightgreen);
+}
+a.actions
+{
+    border: 1px solid #636b6f;
+    padding: 10px 25px;
+    display: inline-block;
+    color: #636b6f;
+}
+a.actions:hover
+{
+    background-color: #636b6f;    
+    color: #ffffff;
+}
+.links
+{
+        margin: 20px 0;
+}
+small
+{
+    font-weight: bold;
+}
+.counts
+{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.alert
+{
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: bold;    
+}
+.alert.alert-success
+{
+    border: 2px solid green;
+    color: green;   
+}
+.alert.alert-info
+{
+    border: 2px solid blue;
+    color: blue;   
+}
+.alert-info h1
+{
+    margin: 0;
+}
+footer 
+{
+    min-height: 40px;    
+}
+@media only screen and (max-width: 600px) 
+{
+    .flex-center
+    {
+        display: block;
+    }
+    span.card 
+    {
+        font-size: 4em;
+    }
+    .playerCards 
+    {    
+        top: 180px;
+    }
+    .cardsTable 
+    {
+        height: 450px;
+        max-width: 800px;
+        width: 100%;
+    }
+    .alert 
+    {        
+        width: initial;
+    }
+}
